@@ -1,11 +1,245 @@
 <!DOCTYPE html>
 <html lang="no">
-  <head>
-    <meta charset="UTF-8" />
-    <title>Max Consulting</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.jsx"></script>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Max Maskin – Din lokale maskinentreprenør for drenering, grøfting, planering og masseforflyttning på private eiendommer.">
+  <title>Max Maskin – Drenering & Graving</title>
+  <link rel="icon" href="/images/logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <a href="index.html" class="navbar-logo">
+    <img src="/images/logo.png" alt="Max Maskin">
+  </a>
+  <ul class="navbar-nav">
+    <li><a href="index.html" class="active">Hjem</a></li>
+    <li><a href="drenering.html">Drenering</a></li>
+    <li><a href="planering.html">Planering</a></li>
+    <li><a href="grofting.html">Grøfting</a></li>
+    <li><a href="masseforflyttning.html">Masseforflyttning</a></li>
+    <li><a href="tel:+4712345678" class="btn-nav">Ring oss</a></li>
+  </ul>
+  <div class="hamburger" aria-label="Meny" role="button" tabindex="0">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" style="margin-top:0;">
+  <div class="hero-bg" style="background-image:url('/images/img-planering-1.jpg');"></div>
+  <div class="hero-content">
+    <img src="/images/logo.png" alt="Max Maskin" class="hero-logo">
+    <h1 class="hero-title">Din <span>lokale</span><br>maskinentreprenør</h1>
+    <p class="hero-sub">Profesjonell drenering, grøfting, planering og masseforflyttning&nbsp;–<br>alltid med rett maskin til jobben</p>
+    <div class="hero-badges">
+      <span class="badge">💧 Drenering</span>
+      <span class="badge">⛏️ Grøfting</span>
+      <span class="badge">🏗️ Planering</span>
+      <span class="badge">🚧 Masseforflyttning</span>
+    </div>
+    <div class="hero-buttons">
+      <a href="tel:+4712345678" class="btn btn-primary">📞 Få gratis tilbud</a>
+      <a href="#tjenester" class="btn btn-outline">Se våre tjenester</a>
+    </div>
+  </div>
+  <div class="scroll-cue">Bla ned</div>
+</section>
+
+<!-- STATS BAR -->
+<div class="stats-bar">
+  <div class="stats-grid">
+    <div><span class="stat-num">10+</span><span class="stat-label">Års erfaring</span></div>
+    <div><span class="stat-num">500+</span><span class="stat-label">Fornøyde kunder</span></div>
+    <div><span class="stat-num">4</span><span class="stat-label">Maskintyper</span></div>
+    <div><span class="stat-num">100%</span><span class="stat-label">Private eiendommer</span></div>
+  </div>
+</div>
+
+<!-- SERVICES -->
+<section class="services-section" id="tjenester">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-tag">Våre tjenester</span>
+      <h2 class="section-title">Vi har <span>rett maskin</span> til enhver jobb</h2>
+      <p class="section-lead">Vi er en liten og lettbeint aktør med fokus på private eiendommer. Rask respons, stor presisjon og alltid riktig utstyr – uansett oppdragets størrelse.</p>
+    </div>
+    <div class="services-grid">
+
+      <div class="service-card reveal">
+        <div class="service-card-img">
+          <img src="/images/img-drenering-1.jpg" alt="Drenering">
+        </div>
+        <div class="service-card-body">
+          <div class="service-card-icon">💧</div>
+          <h3 class="service-card-title">Drenering</h3>
+          <p class="service-card-text">Vi graver og legger drensrør rundt hus og terreng – og sikrer at vannet ledes vekk fra fundamentet ditt effektivt og varig.</p>
+          <a href="drenering.html" class="service-link">Les mer →</a>
+        </div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-card-img">
+          <img src="/images/img-planering-1.jpg" alt="Planering">
+        </div>
+        <div class="service-card-body">
+          <div class="service-card-icon">🏗️</div>
+          <h3 class="service-card-title">Planering</h3>
+          <p class="service-card-text">Innkjørsler og gårdsplasser planert og klargjort for grus, asfalt eller betongstein – jevnt og stabilt underlag fra dag én.</p>
+          <a href="planering.html" class="service-link">Les mer →</a>
+        </div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-card-img">
+          <img src="/images/img-grofting-1.jpg" alt="Grøfting">
+        </div>
+        <div class="service-card-body">
+          <div class="service-card-icon">⛏️</div>
+          <h3 class="service-card-title">Grøfting</h3>
+          <p class="service-card-text">Grøfter for vann, avløp, kabel og drensrør – med riktig dybde og profil. Vi graver presist og ryddig, selv i trange hager.</p>
+          <a href="grofting.html" class="service-link">Les mer →</a>
+        </div>
+      </div>
+
+      <div class="service-card reveal">
+        <div class="service-card-img">
+          <img src="/images/img-planering-2.jpg" alt="Masseforflyttning">
+        </div>
+        <div class="service-card-body">
+          <div class="service-card-icon">🚧</div>
+          <h3 class="service-card-title">Masseforflyttning</h3>
+          <p class="service-card-text">Vi flytter og håndterer masser effektivt – enten det er overskuddsmasse som skal bort, oppfylling av terreng eller ombygging av tomt.</p>
+          <a href="masseforflyttning.html" class="service-link">Les mer →</a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- USP -->
+<section class="usp-section">
+  <div class="container">
+    <div class="text-center reveal">
+      <span class="section-tag" style="background:rgba(245,184,0,0.15);color:var(--yellow);border:1px solid rgba(245,184,0,0.5);">Hvorfor velge oss</span>
+      <h2 class="section-title" style="color:#fff;margin-top:0.5rem;">Liten og <span>lettbeint</span>&nbsp;– stor nok til å levere</h2>
+    </div>
+    <div class="usp-grid">
+      <div class="usp-item reveal">
+        <div class="usp-icon">🎯</div>
+        <h3 class="usp-title">Presisjon</h3>
+        <p class="usp-text">Vi jobber nøyaktig og ryddig. Minimal skade på hage, beplantning og eksisterende anlegg.</p>
+      </div>
+      <div class="usp-item reveal">
+        <div class="usp-icon">⚡</div>
+        <h3 class="usp-title">Rask respons</h3>
+        <p class="usp-text">Som en liten aktør kan vi stille raskt. Ingen lang venteliste – vi kontakter deg og setter opp tidspunkt.</p>
+      </div>
+      <div class="usp-item reveal">
+        <div class="usp-icon">🔧</div>
+        <h3 class="usp-title">Rett maskin</h3>
+        <p class="usp-text">Vi har flere maskintyper tilgjengelig, slik at vi alltid bruker riktig utstyr for hvert oppdrag.</p>
+      </div>
+      <div class="usp-item reveal">
+        <div class="usp-icon">💬</div>
+        <h3 class="usp-title">Tydelig kommunikasjon</h3>
+        <p class="usp-text">Klart tilbud, avtalt tidspunkt og ryddig arbeidsplass. Du vet hva du betaler for – alltid.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section style="background:#fff;padding:6rem 2rem;">
+  <div class="container">
+    <div class="about-grid">
+      <div class="about-img-wrap reveal">
+        <div class="about-img">
+          <img src="/images/img-grofting-2.jpg" alt="Max Maskin i arbeid">
+        </div>
+        <div class="about-sticker">
+          <span class="about-sticker-num">10+</span>
+          <span class="about-sticker-txt">Års erfaring</span>
+        </div>
+      </div>
+      <div class="reveal">
+        <span class="section-tag">Om Max Maskin</span>
+        <h2 class="section-title">Kompetanse du kan <span>stole på</span></h2>
+        <p class="section-lead" style="margin-bottom:1.5rem;">Vi er en lokal maskinentreprenør med spesialisering på private eiendommer. Vi er ikke størst – men vi er nøye, pålitelige og stiller alltid med rett utstyr.</p>
+        <p style="color:#666;margin-bottom:2rem;line-height:1.85;">Enten du trenger drenering rundt huset, planering av innkjørselen eller grøfting for nye rør – vi kjenner jobben og gjør den skikkelig. Mange av våre kunder er anbefalinger fra tidligere fornøyde kunder.</p>
+        <div class="about-features">
+          <div class="about-feature"><div class="about-feature-icon">✓</div><span class="about-feature-txt">Lokalt firma</span></div>
+          <div class="about-feature"><div class="about-feature-icon">✓</div><span class="about-feature-txt">Pålitelig & presis</span></div>
+          <div class="about-feature"><div class="about-feature-icon">✓</div><span class="about-feature-txt">Forsikret & godkjent</span></div>
+          <div class="about-feature"><div class="about-feature-icon">✓</div><span class="about-feature-txt">Ryddig arbeidsplass</span></div>
+          <div class="about-feature"><div class="about-feature-icon">✓</div><span class="about-feature-txt">Garanti på arbeid</span></div>
+          <div class="about-feature"><div class="about-feature-icon">✓</div><span class="about-feature-txt">Gratis befaring</span></div>
+        </div>
+        <a href="tel:+4712345678" class="btn btn-primary">📞 Kontakt oss i dag</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CTA -->
+<section class="cta-section">
+  <div class="container">
+    <span class="section-tag">Klar til å starte?</span>
+    <h2 class="section-title reveal">Få gratis <span>befaring</span> og tilbud</h2>
+    <p class="section-lead reveal">Ring oss eller send en melding – vi svarer raskt og setter opp et tidspunkt som passer for deg.</p>
+    <div class="cta-contact reveal">
+      <a href="tel:+4712345678" class="cta-info" style="text-decoration:none;">
+        <div class="cta-info-icon">📞</div>
+        <div>
+          <div class="cta-info-label">Ring oss</div>
+          <div class="cta-info-value">+47 123 45 678</div>
+        </div>
+      </a>
+      <a href="mailto:post@maxmaskin.no" class="cta-info" style="text-decoration:none;">
+        <div class="cta-info-icon">✉️</div>
+        <div>
+          <div class="cta-info-label">Send e-post</div>
+          <div class="cta-info-value">post@maxmaskin.no</div>
+        </div>
+      </a>
+      <a href="tel:+4712345678" class="btn btn-primary">Få tilbud nå</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <img src="/images/logo.png" alt="Max Maskin">
+      <p>Max Maskin er din lokale maskinentreprenør – spesialisert på drenering, grøfting, planering og masseforflyttning for private eiendommer.</p>
+    </div>
+    <div>
+      <div class="footer-heading">Tjenester</div>
+      <ul class="footer-links">
+        <li><a href="drenering.html">Drenering</a></li>
+        <li><a href="planering.html">Planering</a></li>
+        <li><a href="grofting.html">Grøfting</a></li>
+        <li><a href="masseforflyttning.html">Masseforflyttning</a></li>
+      </ul>
+    </div>
+    <div>
+      <div class="footer-heading">Kontakt</div>
+      <div class="footer-contact-item"><span class="footer-contact-icon">📞</span><span>+47 123 45 678</span></div>
+      <div class="footer-contact-item"><span class="footer-contact-icon">✉️</span><span>post@maxmaskin.no</span></div>
+      <div class="footer-contact-item"><span class="footer-contact-icon">📍</span><span>Betjener hele regionen</span></div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>© 2025 Max Maskin – Drenering & Graving. Alle rettigheter forbeholdt.</p>
+  </div>
+</footer>
+
+<script type="module" src="/js/main.js"></script>
+</body>
 </html>
